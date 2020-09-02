@@ -1,0 +1,122 @@
+.header{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    background: rgb(87, 87, 219);
+    margin-left: 165px;
+    margin-right: 165px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+.header-photo{
+    width: 50px;
+    height: 50px;
+    justify-content: left;
+}
+.menu{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(74, 160, 240);
+    margin-top: 10px;
+    margin-left: 165px;
+    margin-right: 165px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+}
+.menu-button{
+    background: none;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menu-button:hover{
+    background: rgb(61, 131, 197);
+    color: rgb(175, 174, 174);
+}
+.card-ads{
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.card-header{
+    background: rgb(168, 162, 162);
+    margin-bottom: 20px;
+    width: 100%;
+}
+.card{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 165px;
+    background: rgb(218, 218, 218);
+    padding: 10px;
+}
+.card-2{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.card-content{
+    margin-bottom: 40px;
+}
+.judul-2{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.judul-2:hover{
+    color: rgb(0, 140, 255);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-content{
+    width: 100%;
+    height: auto;
+}
+.content{
+    flex-basis: 400px;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-title{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+.judul{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.judul:hover{
+    color: rgb(0, 140, 255);
+}
+.next{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.next:hover{
+    color: rgb(0, 140, 255);
+}
+.footer{
+    background: gray;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 5px;
+    margin: 50px 0 0 0;
+    width: 100%;
+}
+.footer-header{
+    padding: 10px;
+    text-align: center;
+    border-top: thick;
+    border-color: teal;
+}
+.ig{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
